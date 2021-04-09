@@ -1,6 +1,7 @@
 ## Using QRNN to remove cloud impact in microwave channels
 
 This repository contains code for a study that focusses on cloud correction of microwave humidity channels.
+This study is published as "Can machine learning correct microwave humidity radiances for the influence of clouds?" in AMT.
 
 
 ### Dependencies
