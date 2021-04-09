@@ -1,0 +1,21 @@
+Arts2 {
+
+abs_cont_descriptionInit
+
+# Rosenkranz N2-N2 continuum (only N2-N2 broadening)
+abs_cont_descriptionAppend( tagname="N2-SelfContStandardType",
+                            model="Rosenkranz" )
+
+# Rosenkranz 1998 full oxygen continuum
+abs_cont_descriptionAppend( tagname="O2-PWR98",
+                            model="Rosenkranz" )
+
+# Continuum part of MPM89 H2O model
+abs_cont_descriptionAppend( tagname="H2O-MPM89",
+                            model="MPM89Continuum" )
+
+# Ellison liquid cloud (2007)
+abs_cont_descriptionAppend( tagname="liquidcloud-ELL07",
+                            model="ELL07" )
+
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<arts format="ascii" version="1">
+<Array type="AbsorptionLines" nelem="1">
+<comment>
+Lines meta-data:
+	Species identity:
+		Species: H2O-161
+		Lower Quantum Numbers: 
+		Upper Quantum Numbers: 
+	No cut-off will be applied.
+	The lines are considered as in pure LTE.
+	van Vleck and Weisskopf far-wing renormalization will be applied, i.e. F ~ (f/f0)^2
+	The line shape type is the Lorentz profile.
+	These lines are mirrored around 0 Hz using the Lorentz line shape.
+	The reference temperature for all line parameters is 300 K.
+	If applicable, there is no line mixing limit.
+	There are 12 lines available.
+	The front line has:
+		f0: 2.22351e+10 Hz
+		i0: 1.32549e-18 m^2/Hz
+		e0: 8.86883e-21 J
+		Lower stat. weight: 0 [-]
+		Upper stat. weight: 0 [-]
+		A: 0 1/s
+		Zeeman splitting of lower state: nan [-]
+		Zeeman splitting of upper state: nan [-]
+		Lower state local quantum numbers:
+		Upper state local quantum numbers:
+		Line shape parameters (are normalized by sum(VMR)):
+			G0 ~ VMR(SELF) * 134928 * (300/T)^1 + VMR(AIR) * 26560 * (300/T)^0.69
+			D0 ~ VMR(SELF) * 0 * (300/T)^(0.25 + 1.5 * 0.69) + VMR(AIR) * 0 * (300/T)^(0.25 + 1.5 * 0.69)
+</comment>
+<AbsorptionLines nlines="12" species="H2O-161" cutofftype="None" mirroringtype="Lorentz" populationtype="LTE" normalizationtype="VVW" lineshapetype="LP" T0="300" cutofffreq="-1" linemixinglimit="-1" localquanta="" upperglobalquanta="" lowerglobalquanta="" broadeningspecies="SELF AIR" temperaturemodes="G0 T1 T1 D0 T5 T5">
+22235080000 1.325487e-18 8.86883e-21 0 0 0 nan nan 134928 1 0 0 0 0.69 0 0 26560 0.69 0 0 0 0.69 0 0 
+183310074000 2.305815e-16 2.70646e-21 0 0 0 nan nan 149089 0.85 0 0 0 0.77 0 0 29190 0.77 0 0 0 0.77 0 0 
+321225644000 8.151518e-18 2.549609e-20 0 0 0 nan nan 108010.7 0.54 0 0 0 0.67 0 0 23030 0.67 0 0 0 0.67 0 0 
+325152919000 2.738537e-16 6.27204e-21 0 0 0 nan nan 134975.5 0.74 0 0 0 0.68 0 0 27830 0.68 0 0 0 0.68 0 0 
+336187000000 1.838617e-19 4.060106e-20 0 0 0 nan nan 127648.2 0.61 0 0 0 0.69 0 0 26930 0.69 0 0 0 0.69 0 0 
+380197372000 2.47438e-15 4.216395e-21 0 0 0 nan nan 154567.4 0.84 0 0 0 0.69 0 0 28730 0.69 0 0 0 0.69 0 0 
+439150812000 2.211992e-16 1.475108e-20 0 0 0 nan nan 90090 0.52 0 0 0 0.63 0 0 21000 0.63 0 0 0 0.63 0 0 
+443018295000 4.700388e-17 2.077222e-20 0 0 0 nan nan 78678 0.5 0 0 0 0.6 0 0 18600 0.6 0 0 0 0.6 0 0 
+448001075000 2.597139e-15 5.673226e-21 0 0 0 nan nan 127388.8 0.67 0 0 0 0.66 0 0 26320 0.66 0 0 0 0.66 0 0 
+556936002000 1.553409e-13 4.774788e-22 0 0 0 nan nan 131931 1 0 0 0 0.69 0 0 32100 0.69 0 0 0 0.69 0 0 
+752033227000 1.028223e-13 1.397302e-21 0 0 0 nan nan 125154 0.84 0 0 0 0.68 0 0 30600 0.68 0 0 0 0.68 0 0 
+987926764000 7.456141e-14 7.52088e-22 0 0 0 nan nan 135817.5 0.9 0 0 0 0.68 0 0 29850 0.68 0 0 0 0.68 0 0 
+</AbsorptionLines>
+</Array>
+</arts>
